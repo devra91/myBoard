@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in!<br>
+                    <a href="{{ Route('home.show') }}">go to show page</a>
                 </div>
             </div>
         </div>
